@@ -1,0 +1,50 @@
+{
+    "name": "imrandevbd/laravel-blueprint-studio",
+    "description": "Visual Laravel Blueprint Studio — create models, migrations, controllers, and views with a premium visual UI powered by Tailwind CSS & Alpine.js.",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "blueprint",
+        "studio",
+        "crud",
+        "generator",
+        "visual",
+        "migration",
+        "model",
+        "tailwind",
+        "alpine"
+    ],
+    "authors": [
+        {
+            "name": "Imran Dev BD",
+            "email": "me@imrandev.bd",
+            "homepage": "https://imrandev.bd",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/routing": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/view": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/database": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/http": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/filesystem": "^10.0|^11.0|^12.0|^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Imran\\BlueprintStudio\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Imran\\BlueprintStudio\\BlueprintStudioServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
